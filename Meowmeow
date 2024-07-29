@@ -17,7 +17,7 @@ button[aria-label="Mute"].button_f67531.enabled_f67531.button_dd4f85 .lottieIcon
 
 /* change the deafen button */
 button[aria-label="Deafen"].button_f67531.enabled_f67531.button_dd4f85 {
-    background: url('https://imgur.com/Rytpr8K.png') no-repeat center center !important; /* just replace the URL to change the image */
+    background: url('https://imgur.com/KQ1qqbg.png') no-repeat center center !important; /* just replace the URL to change the image */
     background-size: contain !important;
 }
 
