@@ -42,7 +42,7 @@ img[src*="/assets/3145bdb4ad97e9e47055.webp"] {
 .iconSpacing_cdc675[aria-label="Muted"] .icon_cdc675 {
     width: 24px;
     height: 24px;
-    background-image: url('https://imgur.com/i8Rtr5D.png'); /* just replace the URL to change the image */
+    background-image: url('https://imgur.com/ahPbdZo.png'); /* just replace the URL to change the image */
     background-size: cover;
 }
 
@@ -68,7 +68,7 @@ img[src*="/assets/3145bdb4ad97e9e47055.webp"] {
 .iconSpacing_cdc675[aria-label="Server Muted"] .icon_cdc675 {
     width: 24px;
     height: 24px;
-    background-image: url('https://imgur.com/i8Rtr5D.png'); /* just replace the URL to change the image */
+    background-image: url('https://imgur.com/ahPbdZo.png'); /* just replace the URL to change the image */
     background-size: cover;
 }
 
