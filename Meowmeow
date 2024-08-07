@@ -6,7 +6,7 @@ button[aria-label="Mute"].button_adca65.enabled_adca65.button_dd4f85 {
 
 /* change the unmute button */
 button[aria-label="Mute"][aria-checked="true"].button_adca65.enabled_adca65.button_dd4f85 {
-    background: url('https://imgur.com/qkMStEf.png') no-repeat center center !important; /* just replace the URL to change the image */
+    background: url('https://imgur.com/WPx8fZM.png') no-repeat center center !important; /* just replace the URL to change the image */
     background-size: contain !important;
 }
 
@@ -23,7 +23,7 @@ button[aria-label="Deafen"].button_adca65.enabled_adca65.button_dd4f85 {
 
 /* change the undeafen button */
 button[aria-label="Deafen"][aria-checked="true"].button_adca65.enabled_adca65.button_dd4f85 {
-    background: url('https://imgur.com/Mc7MX4j.png') no-repeat center center !important; /* just replace the URL to change the image */
+    background: url('https://imgur.com/zRV2AFT.png') no-repeat center center !important; /* just replace the URL to change the image */
     background-size: contain !important;
 }
 
