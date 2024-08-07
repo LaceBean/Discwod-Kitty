@@ -1,53 +1,53 @@
 /* change the mute button */
-button[aria-label="Mute"].button_f67531.enabled_f67531.button_dd4f85 {
+button[aria-label="Mute"].button_adca65.enabled_adca65.button_dd4f85 {
     background: url('https://imgur.com/c2QOA9G.png') no-repeat center center !important; /* just replace the URL to change the image */
     background-size: contain !important;
 }
 
 /* change the unmute button */
-button[aria-label="Mute"][aria-checked="true"].button_f67531.enabled_f67531.button_dd4f85 {
-    background: url('https://imgur.com/WPx8fZM.png') no-repeat center center !important; /* just replace the URL to change the image */
+button[aria-label="Mute"][aria-checked="true"].button_adca65.enabled_adca65.button_dd4f85 {
+    background: url('https://imgur.com/qkMStEf.png') no-repeat center center !important; /* just replace the URL to change the image */
     background-size: contain !important;
 }
 
 /* hide the original SVG path for the mute icon */
-button[aria-label="Mute"].button_f67531.enabled_f67531.button_dd4f85 .lottieIcon_f73ef7 {
+button[aria-label="Mute"].button_adca65.enabled_adca65.button_dd4f85 .lottieIcon_f73ef7 {
     display: none !important;
 }
 
 /* change the deafen button */
-button[aria-label="Deafen"].button_f67531.enabled_f67531.button_dd4f85 {
+button[aria-label="Deafen"].button_adca65.enabled_adca65.button_dd4f85 {
     background: url('https://imgur.com/KQ1qqbg.png') no-repeat center center !important; /* just replace the URL to change the image */
     background-size: contain !important;
 }
 
 /* change the undeafen button */
-button[aria-label="Deafen"][aria-checked="true"].button_f67531.enabled_f67531.button_dd4f85 {
+button[aria-label="Deafen"][aria-checked="true"].button_adca65.enabled_adca65.button_dd4f85 {
     background: url('https://imgur.com/Mc7MX4j.png') no-repeat center center !important; /* just replace the URL to change the image */
     background-size: contain !important;
 }
 
 /* hide the original SVG path for the mute icon */
-button[aria-label="Deafen"].button_f67531.enabled_f67531.button_dd4f85 .lottieIcon_f73ef7 {
+button[aria-label="Deafen"].button_adca65.enabled_adca65.button_dd4f85 .lottieIcon_f73ef7 {
     display: none !important;
 }
 
 /* direct messages image */
 img[src*="/assets/3145bdb4ad97e9e47055.webp"] {
-    content: url('Insert URL here'); /* just replace the URL to change the image */
+    content: url(''); /* just replace the URL to change the image */
     width: 48px !important; 
 }
 
 /* target the muted icon in vcs, without changing the deafened icon */
-.iconSpacing_cdc675[aria-label="Muted"] .icon_cdc675 {
+.iconSpacing_d80634[aria-label="Muted"] .icon_d80634 {
     width: 24px;
     height: 24px;
-    background-image: url('https://imgur.com/ahPbdZo.png'); /* just replace the URL to change the image */
+    background-image: url('https://imgur.com/i8Rtr5D.png'); /* just replace the URL to change the image */
     background-size: cover;
 }
 
 /* target the deafened icon in vcs, without changing the muted icon */
-.iconSpacing_cdc675[aria-label="Deafened"] .icon_cdc675 {
+.iconSpacing_d80634[aria-label="Deafened"] .icon_d80634 {
     width: 24px;
     height: 24px;
     background-image: url('https://imgur.com/Ck5VEcc.png'); /* just replace the URL to change the image */
@@ -55,30 +55,30 @@ img[src*="/assets/3145bdb4ad97e9e47055.webp"] {
 }
 
 /* hide the original SVG path for the muted icon */
-.iconSpacing_cdc675[aria-label="Muted"] .icon_cdc675 path {
+.iconSpacing_d80634[aria-label="Muted"] .icon_d80634 path {
     display: none;
 }
 
 /* hide the original SVG path for the deafened icon */
-.iconSpacing_cdc675[aria-label="Deafened"] .icon_cdc675 path {
+.iconSpacing_d80634[aria-label="Deafened"] .icon_d80634 path {
     display: none;
 }
 
 /* change the server muted icon */
-.iconSpacing_cdc675[aria-label="Server Muted"] .icon_cdc675 {
+.iconSpacing_d80634[aria-label="Server Muted"] .icon_d80634 {
     width: 24px;
     height: 24px;
-    background-image: url('https://imgur.com/ahPbdZo.png'); /* just replace the URL to change the image */
+    background-image: url('https://imgur.com/i8Rtr5D.png'); /* just replace the URL to change the image */
     background-size: cover;
 }
 
 /* hide the original SVG path for the muted icon */
-.iconSpacing_cdc675[aria-label="Server Muted"] .icon_cdc675 path {
+.iconSpacing_d80634[aria-label="Server Muted"] .icon_d80634 path {
     display: none;
 }
 
 /* change the server deafened icon */
-.iconSpacing_cdc675[aria-label="Server Deafened"] .icon_cdc675 {
+.iconSpacing_d80634[aria-label="Server Deafened"] .icon_d80634 {
     width: 24px;
     height: 24px;
     background-image: url('https://imgur.com/Ck5VEcc.png'); /* just replace the URL to change the image */
@@ -86,7 +86,7 @@ img[src*="/assets/3145bdb4ad97e9e47055.webp"] {
 }
 
 /* hide the original SVG path for the muted icon */
-.iconSpacing_cdc675[aria-label="Server Deafened"] .icon_cdc675 path {
+.iconSpacing_d80634[aria-label="Server Deafened"] .icon_d80634 path {
     display: none;
 }
 
