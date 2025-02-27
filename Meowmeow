@@ -95,7 +95,7 @@ button[aria-label="Deafen"] path {
 .iconSpacing__07f91[aria-label="Server Deafened"] .icon__07f91 {
     width: 24px;
     height: 24px;
-    background-image: url('https://imgur.com/Ck5VEcc.png')no-repeat center center !important;; /* just replace the URL to change the image */
+    background-image: url('https://imgur.com/Ck5VEcc.png')no-repeat center center !important; /* just replace the URL to change the image */
     background-size: contain !important;
 }
 
