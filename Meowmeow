@@ -1,101 +1,109 @@
-/* change the mute button */
-button[aria-label="Mute"].button_adca65.enabled_adca65.button_dd4f85 {
+/* Change the mute button */
+button[aria-label="Mute"]:not([aria-checked="true"]) {
     background: url('https://imgur.com/c2QOA9G.png') no-repeat center center !important; /* just replace the URL to change the image */
     background-size: contain !important;
 }
 
-/* change the unmute button */
-button[aria-label="Mute"][aria-checked="true"].button_adca65.enabled_adca65.button_dd4f85 {
+/* Change the unmute button */
+button[aria-label="Mute"][aria-checked="true"] {
     background: url('https://imgur.com/WPx8fZM.png') no-repeat center center !important; /* just replace the URL to change the image */
     background-size: contain !important;
 }
 
-/* hide the original SVG path for the mute icon */
-button[aria-label="Mute"].button_adca65.enabled_adca65.button_dd4f85 .lottieIcon_f73ef7 {
+/* Hide the mute icon */
+button[aria-label="Mute"] svg,
+button[aria-label="Mute"] path {
     display: none !important;
+    opacity: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
 }
 
-/* change the deafen button */
-button[aria-label="Deafen"].button_adca65.enabled_adca65.button_dd4f85 {
+/* Change the deafen button */
+button[aria-label="Deafen"]:not([aria-checked="true"]) {
     background: url('https://imgur.com/KQ1qqbg.png') no-repeat center center !important; /* just replace the URL to change the image */
     background-size: contain !important;
 }
 
-/* change the undeafen button */
-button[aria-label="Deafen"][aria-checked="true"].button_adca65.enabled_adca65.button_dd4f85 {
+/* Change the undeafen button */
+button[aria-label="Deafen"][aria-checked="true"] {
     background: url('https://imgur.com/zRV2AFT.png') no-repeat center center !important; /* just replace the URL to change the image */
     background-size: contain !important;
 }
 
-/* hide the original SVG path for the mute icon */
-button[aria-label="Deafen"].button_adca65.enabled_adca65.button_dd4f85 .lottieIcon_f73ef7 {
+/* Hide the deafen icon */
+button[aria-label="Deafen"] svg,
+button[aria-label="Deafen"] path {
     display: none !important;
+    opacity: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
 }
 
-/* direct messages image */
-img[src*="/assets/3145bdb4ad97e9e47055.webp"] {
-    content: url(''); /* just replace the URL to change the image */
-    width: 48px !important; 
-}
-
-/* target the muted icon in vcs, without changing the deafened icon */
-.iconSpacing_d80634[aria-label="Muted"] .icon_d80634 {
+/* Change the VC muted icon */
+.iconSpacing__07f91[aria-label="Muted"] .icon__07f91 {
     width: 24px;
     height: 24px;
-    background-image: url('https://imgur.com/i8Rtr5D.png'); /* just replace the URL to change the image */
-    background-size: cover;
+    background: url('https://imgur.com/i8Rtr5D.png') no-repeat center center !important; /* just replace the URL to change the image */
+    background-size: contain !important;
 }
 
-/* target the deafened icon in vcs, without changing the muted icon */
-.iconSpacing_d80634[aria-label="Deafened"] .icon_d80634 {
+/* Change the VC deafened icon*/
+.iconSpacing__07f91[aria-label="Deafened"] .icon__07f91 {
     width: 24px;
     height: 24px;
-    background-image: url('https://imgur.com/Ck5VEcc.png'); /* just replace the URL to change the image */
-    background-size: cover;
+    background-image: url('https://imgur.com/Ck5VEcc.png') no-repeat center center !important; /* just replace the URL to change the image */
+    background-size: contain !important;
 }
 
-/* hide the original SVG path for the muted icon */
-.iconSpacing_d80634[aria-label="Muted"] .icon_d80634 path {
-    display: none;
+/* Hide the vc muted icon */
+.iconSpacing__07f91[aria-label="Muted"] .icon__07f91 > svg,
+.iconSpacing__07f91[aria-label="Muted"] .icon__07f91 path {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+}
+/* Hide the vc deafen icon */
+.iconSpacing__07f91[aria-label="Deafened"] .icon__07f91 > svg,
+.iconSpacing__07f91[aria-label="Deafened"] .icon__07f91 path {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
 }
 
-/* hide the original SVG path for the deafened icon */
-.iconSpacing_d80634[aria-label="Deafened"] .icon_d80634 path {
-    display: none;
-}
 
 /* change the server muted icon */
-.iconSpacing_d80634[aria-label="Server Muted"] .icon_d80634 {
+.iconSpacing__07f91[aria-label="Server Muted"] .icon__07f91 {
     width: 24px;
     height: 24px;
-    background-image: url('https://imgur.com/i8Rtr5D.png'); /* just replace the URL to change the image */
-    background-size: cover;
+    background-image: url('https://imgur.com/i8Rtr5D.png')no-repeat center center !important; /* just replace the URL to change the image */
+    background-size: contain !important;
 }
 
-/* hide the original SVG path for the muted icon */
-.iconSpacing_d80634[aria-label="Server Muted"] .icon_d80634 path {
-    display: none;
+/* hide the server muted icon */
+.iconSpacing__07f91[aria-label="Server Muted"] .icon__07f91 > svg,
+.iconSpacing__07f91[aria-label="Server Muted"] .icon__07f91 path {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
 }
 
 /* change the server deafened icon */
-.iconSpacing_d80634[aria-label="Server Deafened"] .icon_d80634 {
+.iconSpacing__07f91[aria-label="Server Deafened"] .icon__07f91 {
     width: 24px;
     height: 24px;
-    background-image: url('https://imgur.com/Ck5VEcc.png'); /* just replace the URL to change the image */
-    background-size: cover;
+    background-image: url('https://imgur.com/Ck5VEcc.png')no-repeat center center !important;; /* just replace the URL to change the image */
+    background-size: contain !important;
 }
 
-/* hide the original SVG path for the muted icon */
-.iconSpacing_d80634[aria-label="Server Deafened"] .icon_d80634 path {
-    display: none;
-}
-
-/* hide the server mute icon */
-button[aria-label="Mute"] div.contents_dd4f85 svg {
-  display: none !important;
-}
-
-/* hide the server deafen icon */
-button[aria-label="Deafen"] div.contents_dd4f85 svg {
-  display: none !important;
+/* hide the served deafened icon */
+.iconSpacing__07f91[aria-label="Server Deafened"] .icon__07f91 > svg,
+.iconSpacing__07f91[aria-label="Server Deafened"] .icon__07f91 path {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
 }
